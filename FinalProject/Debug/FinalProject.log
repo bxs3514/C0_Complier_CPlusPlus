@@ -1,9 +1,35 @@
-﻿Build started 12/22/2014 11:19:26 PM.
-     1>Project "H:\Study\编译原理\FinalProject\FinalProject\FinalProject.vcxproj" on node 2 (Build target(s)).
-     1>Link:
-         FinalProject.vcxproj -> H:\Study\编译原理\FinalProject\Debug\FinalProject.exe
-     1>Done Building Project "H:\Study\编译原理\FinalProject\FinalProject\FinalProject.vcxproj" (Build target(s)).
+﻿Build started 12/23/2014 8:50:52 PM.
+     1>Project "G:\Dropbox\MyProjects\C0_Complier_CPlusPlus\FinalProject\FinalProject.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FinalProject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Error.cpp GrammarAnalysis.cpp CreateSymbolList.cpp SymbolList.cpp WordAnalysis.cpp main.cpp
+         main.cpp
+     1>g:\dropbox\myprojects\c0_complier_cplusplus\finalproject\symbollist.h(40): warning C4091: 'typedef ': ignored on left of 'SymbolList' when no variable is declared
+         WordAnalysis.cpp
+     1>g:\dropbox\myprojects\c0_complier_cplusplus\finalproject\symbollist.h(40): warning C4091: 'typedef ': ignored on left of 'SymbolList' when no variable is declared
+         SymbolList.cpp
+     1>g:\dropbox\myprojects\c0_complier_cplusplus\finalproject\symbollist.h(40): warning C4091: 'typedef ': ignored on left of 'SymbolList' when no variable is declared
+         CreateSymbolList.cpp
+     1>g:\dropbox\myprojects\c0_complier_cplusplus\finalproject\symbollist.h(40): warning C4091: 'typedef ': ignored on left of 'SymbolList' when no variable is declared
+         GrammarAnalysis.cpp
+     1>g:\dropbox\myprojects\c0_complier_cplusplus\finalproject\symbollist.h(40): warning C4091: 'typedef ': ignored on left of 'SymbolList' when no variable is declared
+         Error.cpp
+         Generating Code...
+     1>g:\dropbox\myprojects\c0_complier_cplusplus\finalproject\grammaranalysis.cpp(258): warning C4715: 'GrammarAnalysis::functionDefi': not all control paths return a value
+     1>g:\dropbox\myprojects\c0_complier_cplusplus\finalproject\grammaranalysis.cpp(778): warning C4715: 'GrammarAnalysis::Write': not all control paths return a value
+     1>g:\dropbox\myprojects\c0_complier_cplusplus\finalproject\grammaranalysis.cpp(466): warning C4715: 'GrammarAnalysis::Statement': not all control paths return a value
+     1>g:\dropbox\myprojects\c0_complier_cplusplus\finalproject\grammaranalysis.cpp(619): warning C4715: 'GrammarAnalysis::LoopStatement': not all control paths return a value
+     1>g:\dropbox\myprojects\c0_complier_cplusplus\finalproject\grammaranalysis.cpp(815): warning C4715: 'GrammarAnalysis::Return': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Dropbox\MyProjects\C0_Complier_CPlusPlus\Debug\C0 Compiler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"G:\Dropbox\MyProjects\C0_Complier_CPlusPlus\Debug\C0 Compiler.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Dropbox\MyProjects\C0_Complier_CPlusPlus\Debug\C0 Compiler.lib" /MACHINE:X86 Debug\Error.obj
+         Debug\GrammarAnalysis.obj
+         Debug\CreateSymbolList.obj
+         Debug\SymbolList.obj
+         Debug\WordAnalysis.obj
+         Debug\main.obj
+         FinalProject.vcxproj -> G:\Dropbox\MyProjects\C0_Complier_CPlusPlus\Debug\C0 Compiler.exe
+     1>Done Building Project "G:\Dropbox\MyProjects\C0_Complier_CPlusPlus\FinalProject\FinalProject.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.76
+Time Elapsed 00:01:23.10

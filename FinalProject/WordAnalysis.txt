@@ -1,0 +1,52 @@
+0 INT_DECLEARSY       	2			-842150451
+1 MAINSY              	7			-842150451
+2 LPARSY              	23			-842150451
+3 RPARSY              	24			-842150451
+4 BIG_LPARSY          	25			-842150451
+5 CONSTSY             	1			-842150451
+6 IDSY                	11	a		-842150451
+7 ASSIGNSY            	29			-842150451
+8 INTSY               	12			10
+9 COMMASY             	27			-842150451
+10 IDSY                	11	b		-842150451
+11 ASSIGNSY            	29			-842150451
+12 INTSY               	12			9
+13 SEMISY              	28			-842150451
+14 INT_DECLEARSY       	2			-842150451
+15 IDSY                	11	b		-842150451
+16 COMMASY             	27			-842150451
+17 IDSY                	11	c		-842150451
+18 COMMASY             	27			-842150451
+19 IDSY                	11	d		-842150451
+20 SEMISY              	28			-842150451
+21 IFSY                	4			-842150451
+22 LPARSY              	23			-842150451
+23 IDSY                	11	a		-842150451
+24 STARSY              	15			-842150451
+25 INTSY               	12			10
+26 LESSEY_EQUALSY      	18			-842150451
+27 INTSY               	12			10
+28 RPARSY              	24			-842150451
+29 BIG_LPARSY          	25			-842150451
+30 WHILESY             	6			-842150451
+31 LPARSY              	23			-842150451
+32 IDSY                	11	a		-842150451
+33 RPARSY              	24			-842150451
+34 BIG_LPARSY          	25			-842150451
+35 PRINTFSY            	9			-842150451
+36 LPARSY              	23			-842150451
+37 QUATOSY             	30	"		-842150451
+38 COMMASY             	27			-842150451
+39 INTSY               	12			33
+40 RPARSY              	24			-842150451
+41 BIG_RPARSY          	26			-842150451
+42 BIG_RPARSY          	26			-842150451
+43 ELSESY              	5			-842150451
+44 BIG_LPARSY          	25			-842150451
+45 IDSY                	11	a		-842150451
+46 ASSIGNSY            	29			-842150451
+47 INTSY               	12			5
+48 SEMISY              	28			-842150451
+49 BIG_RPARSY          	26			-842150451
+50 RETURNSY            	8			-842150451
+51 BIG_RPARSY          	26			-842150451

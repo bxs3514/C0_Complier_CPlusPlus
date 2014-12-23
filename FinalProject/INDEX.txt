@@ -1,0 +1,49 @@
+{"", 0, ""},
+{"const", 1, "CONSTSY"},
+{"int", 2, "INT_DECLEARSY"},
+{"void",3, "VOIDSY"},
+{"if", 4, "IFSY"},
+{"else",5,"ELSESY"},
+{"while", 6, "WHILESY"},
+{"main", 7, "MAINSY"},
+{"return", 8, "RETURNSY"},
+{"printf", 9, "PRINTFSY"},
+{"scanf", 10, "SCANFSY"},
+//NO.1-10 are reserve words.
+{"", 11, "IDSY"},//NO.11 identifier
+{"", 12, "INTSY"},//NO.12 integer
+{"+", 13, "PLUSSY"},
+{"-", 14, "MINUSSY"},
+{"*", 15, "STARSY"},
+{"/", 16, "DIVISY"},
+{"<", 17, "LESSERSY"},
+{"<=", 18, "LESSEY_EQUALSY"},
+{">", 19, "GREETERSY"},
+{">=", 20, "GREETER_EQUALSY"},
+{"!=", 21, "NOT_EQUALSY"},
+{"==", 22, "EQUALSU"},
+//NO.11-22 are calculate operator
+{"(", 23, "LPARSY"},
+{")", 24, "RPARSY"},
+{"{", 25, "BIG_LPARSY"},
+{"}", 26, "BIG_RPARSY"},
+{",", 27, "COMMASY"},
+{";", 28, "SEMISY"},
+{"=", 29, "ASSIGNSY"},
+//NO.23-29 are special operator
+{"\"",30, "QUATOSY"}
+//NO.30 is string operator}
+
+Constant
+Variable
+Function
+Function_End
+Function_Call
+Main
+Main_End
+Condition
+Loop
+Assign
+Write
+Read
+Return

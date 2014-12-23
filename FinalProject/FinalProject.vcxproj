@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{FAE33E07-1250-4AFD-A582-09362CF3B4B4}</ProjectGuid>
     <RootNamespace>FinalProject</RootNamespace>
-    <ProjectName>C0 Complier</ProjectName>
+    <ProjectName>C0 Compiler</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
